@@ -12,6 +12,7 @@
 		A281DC2D277AE9C900A7F159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281DC2C277AE9C900A7F159 /* ViewController.swift */; };
 		A281DC32277AE9CC00A7F159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A281DC31277AE9CC00A7F159 /* Assets.xcassets */; };
 		A281DC4E277AF72900A7F159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A281DC4D277AF72900A7F159 /* Main.storyboard */; };
+		A281DC53277AF91300A7F159 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A281DC55277AF91300A7F159 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		A281DC31277AE9CC00A7F159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A281DC36277AE9CC00A7F159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A281DC4D277AF72900A7F159 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A281DC54277AF91300A7F159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A281DC56277AF91500A7F159 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				A281DC4D277AF72900A7F159 /* Main.storyboard */,
 				A281DC31277AE9CC00A7F159 /* Assets.xcassets */,
 				A281DC36277AE9CC00A7F159 /* Info.plist */,
+				A281DC55277AF91300A7F159 /* Localizable.strings */,
 			);
 			path = BaseInternationalization;
 			sourceTree = "<group>";
@@ -105,6 +109,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = A281DC1C277AE9C900A7F159;
 			productRefGroup = A281DC26277AE9C900A7F159 /* Products */;
@@ -122,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A281DC4E277AF72900A7F159 /* Main.storyboard in Resources */,
+				A281DC53277AF91300A7F159 /* Localizable.strings in Resources */,
 				A281DC32277AE9CC00A7F159 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +146,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A281DC55277AF91300A7F159 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A281DC54277AF91300A7F159 /* en */,
+				A281DC56277AF91500A7F159 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A281DC37277AE9CC00A7F159 /* Debug */ = {
